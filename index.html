@@ -24,10 +24,10 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
       <a href="#" class="w3-button w3-block">Home</a>
     </div>
     <div class="w3-col s3">
-      <a href="#plans" class="w3-button w3-block">About</a>
+      <a href="#about" class="w3-button w3-block">About</a>
     </div>
     <div class="w3-col s3">
-      <a href="#about" class="w3-button w3-block">Projects</a>
+      <a href="#projects" class="w3-button w3-block">Projects</a>
     </div>
     <div class="w3-col s3">
       <a href="#contact" class="w3-button w3-block">Contact</a>
@@ -42,27 +42,28 @@ html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
   <head>
     <title>Pretty Paris</title>
   </head>
+
+<div>
   <style>
-  .container {
-  display: flex;
-  align-items: center;
-  justify-content: center
-}
-
-img {
-  max-width: 100%;
-  max-height:100%;
-}
-
-.text {
-  font-size: 20px;
-  padding-left: 20px;
-}
+    .container {
+    display: flex;
+    align-items: center;
+    justify-content: left
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  
   </style>
+</div>
+
+
   <body>
     <div class="container">
       <div class="image">
-        <img src="https://i.pinimg.com/564x/59/32/29/593229739184504afd9507cc42a9cb86.jpg">
+        <img src="front page image.png" width="500" height="500">
       </div>
       <div class="text">
         <h1>Hi, I am Natalie Kuo.</h1>
@@ -70,48 +71,108 @@ img {
     </div>
   </body>
 
-
-
-   <!-- About -->
-   <div class="w3-row-padding" id="About">
+  <p class="w3-text-grey"> illustration source: https://dribbble.com/shots/12286649-App-n-roll-home-illustration</p>
 
 
 
 
-
-
-     <!-- Projects -->
-
+  <div class="divider"></div>
 
 
 
+  <!-- About -->
+  <div class="w3-content w3-justify w3-text-light-black w3-padding-64" id="about">
+    <h2 class="w3-text-light-light-black">About Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+    <p class="w3-text-grey">
+      I'm a second year attending Georgia Institude of Technology. I am currently majoring in Computational Media.
+      In the future, I would like to work as a UI/UX designer.
+    </p>
+
+    <div class="divider"></div>
+
+    <h2 class="w3-text-dark-grey">My Skills</h2>
+      <ul class="w3-text-grey">
+        <li>Java</li>
+        <li>Phyton</li>
+        <li>Adobe</li>
+      </ul>
+
+    <br>
 
 
+  <!-- Projects -->
+
+  <div class="w3-content w3-justify w3-text-light-black w3-padding-64" id="projects">
+
+     <!-- Photo Grid-->
+
+     <h2 class="w3-text-light-black">Projects</h2>
+
+     <h4 class="w3-text-dark-grey">Past Design Projects: </h4>
+     
 
 
-      <!-- Contact -->
-      <!-- w3schools reference -->
-      <div class="w3-padding-64 w3-content w3-text-black" id="contact">
-        <h2 class="w3-text-black">Contact Me</h2>
-        <hr style="width:200px" class="w3-opacity">
+  <div class="w3-row-padding">
     
-        <div class="w3-section">
-          <p><i class="fa fa-map-marker fa-fw w3-text-gray w3-xxlarge w3-margin-right"></i> Atlanta, GA</p>
-          <p><i class="fa fa-phone fa-fw w3-text-gray w3-xxlarge w3-margin-right"></i> Phone: 6782769288</p>
-          <p><i class="fa fa-envelope fa-fw w3-text-gray w3-xxlarge w3-margin-right"> </i> Email: nataliejkuo3@mail.com</p>
-        </div><br>
-        <p>Let's get in touch. Send me a message:</p>
-    
-        <form action="/action_page.php" target="_blank">
-          <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
-          <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
-          <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
-          <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
-          <p>
-            <button class="w3-button w3-light-grey w3-padding-large" type="submit">
-              <i class="fa fa-paper-plane"></i> SEND MESSAGE
-            </button>
-          </p>
-        </form>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="panda mosaic.png" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Panda Mosaic</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container w3-margin-bottom">
+      <img src="rainbow dragon.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Chinese New Year in Rainbow</b></p>
+      </div>
+    </div>
+    <div class="w3-third w3-container">
+      <img src="redesign sweet frog logo.jpg" alt="Norway" style="width:100%" class="w3-hover-opacity">
+      <div class="w3-container w3-white">
+        <p><b>Redesign Sweet Frog Logo</b></p>
+      </div>
+    </div>
+  </div>
 
+  <br>
+
+
+
+    <h4 class="w3-text-light-black">Projects in Progress: </h4>
+    <hr style="width:200px" class="w3-opacity">
+        <ul class="w3-text-dark-grey">
+          <li>Personal Website</li>
+          <li>Dungeon Crawler Game</li>
+        </ul>
+
+    <br>
+
+
+ <!-- Contact -->
+  <div class="w3-padding-64 w3-content w3-text-light-black" id="contact">
+    <h2 class="w3-text-light-black">Contact Me</h2>
+    <hr style="width:200px" class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-text-grey w3-xxlarge w3-margin-right"></i> Atlanta, GA</p>
+      <p><i class="fa fa-phone fa-fw w3-text-grey w3-xxlarge w3-margin-right"></i> Phone: 6782769288</p>
+      <p><i class="fa fa-envelope fa-fw w3-text-grey w3-xxlarge w3-margin-right"> </i> Email: nataliejkuo3@gmail.com</p>
+    </div><br>
+    <p>Want to get in touch? Feel free to fill out the form below! </p>
+
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit">
+          <i class="fa fa-paper-plane"></i> SEND MESSAGE
+        </button>
+      </p>
+    </form>
+
+</body>
+</html>
 
